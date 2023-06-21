@@ -1,0 +1,19 @@
+{
+  "name": "spotify-playlist-editor",
+  "version": "1.0.0",
+  "description": "",
+  "source": "src/main.js",
+  "type": "module",
+  "scripts": {
+    "start": "node src/main.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Xaron11",
+  "license": "No license",
+  "dependencies": {
+    "dotenv": "^16.0.3",
+    "inquirer": "^9.1.4",
+    "spotify-personal-auth": "^1.1.6",
+    "spotify-web-api-node": "^5.0.2"
+  }
+}
